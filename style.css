@@ -1,0 +1,44 @@
+.topo{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #DBDBDB;
+    background: #FFFFFF;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 142px;
+}
+
+.vr{
+    width: 1px;
+    height: 22px;
+    border-right: 1px solid #DBDBDB;
+}
+
+.search-bar{
+    background: #FAFAFA;
+    width: 215px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.top-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 133px;
+}
+
+.top-icons ion-icon{
+    width: 18px;
+    height: 28px;
+}
