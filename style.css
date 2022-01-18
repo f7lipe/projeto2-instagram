@@ -42,3 +42,26 @@
     width: 18px;
     height: 28px;
 }
+
+ main{
+     background: #E5E5E5;;
+ }
+
+ .stories{
+     display: flex;
+     justify-content: start;
+     height: 88px;
+ }
+
+ .story{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .story img{
+     width: 56px;
+     border: solid 2px white;
+     border-radius: 40px;
+ }
