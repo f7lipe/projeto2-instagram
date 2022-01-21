@@ -17,28 +17,38 @@
 <body>
     <!-- Cabeçalho -->
     <header class="topo">
-        <!-- Icone + logo-->
-        <div class="logo">
+        <div class="desktop-mode">
+            <!-- Icone + logo-->
+            <div class="logo">
+                <!-- Logo -->
+                <ion-icon name="logo-instagram"></ion-icon>
+                <!-- Divisor vertical -->
+                <div class="vr"></div>
+                <!-- Marca -->
+                <img src="/images/logo.png" alt="Marca do instagram">
+            </div>
+            <!-- Barra de busca -->
+            <div class="search-bar">
+                <!-- Caixa de pesquisa -->
+
+                <input type="text" placeholder="Pesquisar" />
+
+            </div>
+            <!-- Ícones -->
+            <div class="top-icons">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                <ion-icon name="compass-outline"></ion-icon>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="person-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="mobile-mode">
             <!-- Logo -->
             <ion-icon name="logo-instagram"></ion-icon>
-            <!-- Divisor vertical -->
-            <div class="vr"></div>
             <!-- Marca -->
             <img src="/images/logo.png" alt="Marca do instagram">
-        </div>
-        <!-- Barra de busca -->
-        <div class="search-bar">
-            <!-- Caixa de pesquisa -->
-
-            <input type="text" placeholder="Pesquisar" />
-
-        </div>
-        <!-- Ícones -->
-        <div class="top-icons">
+            <!-- Direct -->
             <ion-icon name="paper-plane-outline"></ion-icon>
-            <ion-icon name="compass-outline"></ion-icon>
-            <ion-icon name="heart-outline"></ion-icon>
-            <ion-icon name="person-outline"></ion-icon>
         </div>
     </header>
 
@@ -124,6 +134,7 @@
             </div>
             <!-- Posts -->
             <div class="posts">
+
                 <div class="post">
                     <!-- Topbar com foto e nome do usuário-->
                     <div class="post-top-bar">
@@ -143,14 +154,364 @@
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
-                            <div class="reactions">
-                                <ion-icon name="heart-outline"></ion-icon>
-                                <ion-icon name="chatbubble-outline"></ion-icon>
-                                <ion-icon name="paper-plane-outline"></ion-icon>
-                            </div>
-                            <div>
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                            </div>
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <video src="/images/video.mp4"></video>
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">f7lipe</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="/images/f7lipe-post.png" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,12 +521,13 @@
         <div class="sidebar">
             <!-- Perfil do usupario -->
             <div class="user-profile">
-                <!-- Foto -->
-                <img src="" alt="">
-                <!-- ID do usuário-->
-                <p class="username"></p>
-                <!-- Nome do usuário -->
-                <p class="text-label"></p>
+                <div class="suggestion-box">
+                    <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                    <div class="labels">
+                        <!-- ID do usuário-->
+                        <p>f7lipe <br> Filipe Correia</p>
+                    </div>
+                </div>
             </div>
             <!-- Sugestões -->
             <div class="suggestions">
@@ -177,79 +539,65 @@
 
                 <!-- Sugestão -->
                 <div class="suggestion">
-                    <div class="suggestion-content">
-                        <!-- Foto -->
-                        <img src="" alt="">
-                        <!-- ID do usuário-->
-                        <p class="username">bad.vibe.memes</p>
-                        <!-- Status -->
-                        <p class="text-label">segue você</p>
+                    <div class="suggestion-box">
+                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <div class="labels">
+                            <!-- ID do usuário-->
+                            <p>f7lipe <br> Segue você</p>
+                        </div>
                     </div>
-                    <div class="follow-btn">
-                        <p>Seguir</p>
-                    </div>
+                    <p class="follow_btn">Seguir</p>
                 </div>
 
                 <div class="suggestion">
-                    <div class="suggestion-content">
-                        <!-- Foto -->
-                        <img src="" alt="">
-                        <!-- ID do usuário-->
-                        <p class="username">bad.vibe.memes</p>
-                        <!-- Status -->
-                        <p class="text-label">segue você</p>
+                    <div class="suggestion-box">
+                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <div class="labels">
+                            <!-- ID do usuário-->
+                            <p>f7lipe <br> Segue você</p>
+                        </div>
                     </div>
-                    <div class="follow-btn">
-                        <p>Seguir</p>
-                    </div>
+                    <p class="follow_btn">Seguir</p>
                 </div>
 
                 <div class="suggestion">
-                    <div class="suggestion-content">
-                        <!-- Foto -->
-                        <img src="" alt="">
-                        <!-- ID do usuário-->
-                        <p class="username">bad.vibe.memes</p>
-                        <!-- Status -->
-                        <p class="text-label">segue você</p>
+                    <div class="suggestion-box">
+                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <div class="labels">
+                            <!-- ID do usuário-->
+                            <p>f7lipe <br> Segue você</p>
+                        </div>
                     </div>
-                    <div class="follow-btn">
-                        <p>Seguir</p>
-                    </div>
+                    <p class="follow_btn">Seguir</p>
                 </div>
 
                 <div class="suggestion">
-                    <div class="suggestion-content">
-                        <!-- Foto -->
-                        <img src="" alt="">
-                        <!-- ID do usuário-->
-                        <p class="username">bad.vibe.memes</p>
-                        <!-- Status -->
-                        <p class="text-label">segue você</p>
+                    <div class="suggestion-box">
+                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <div class="labels">
+                            <!-- ID do usuário-->
+                            <p>f7lipe <br> Segue você</p>
+                        </div>
                     </div>
-                    <div class="follow-btn">
-                        <p>Seguir</p>
-                    </div>
+                    <p class="follow_btn">Seguir</p>
                 </div>
 
                 <div class="suggestion">
-                    <div class="suggestion-content">
-                        <!-- Foto -->
-                        <img src="" alt="">
-                        <!-- ID do usuário-->
-                        <p class="username">bad.vibe.memes</p>
-                        <!-- Status -->
-                        <p class="text-label">segue você</p>
+                    <div class="suggestion-box">
+                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <div class="labels">
+                            <!-- ID do usuário-->
+                            <p>f7lipe <br> Segue você</p>
+                        </div>
                     </div>
-                    <div class="follow-btn">
-                        <p>Seguir</p>
-                    </div>
+                    <p class="follow_btn">Seguir</p>
                 </div>
+
 
             </div>
 
             <!-- Info -->
-            <div class="info">
+            <div class="info-buttons">
                 <p>Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
                     Termos • Localizações • Contas mais relevantes • Hashtags •
                     Idioma</p>
