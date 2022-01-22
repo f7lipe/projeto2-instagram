@@ -58,78 +58,102 @@
         <div class="feed">
             <!-- Stories -->
             <div class="stories">
+                <div class="arrow">
+                    <ion-icon name="chevron-forward-circle"></ion-icon>
+                </div>
 
                 <div class="story">
                     <!-- Imagem -->
+                    <div class="gradient-border">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
                     <p class="username_label">9gag</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="data:image/png;base64,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"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">meowed</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5cd13513ca525b170129034f/1558252297029-U1K9YU2H286Q07MAOYG3/Barked-logo-final.png?format=750w"
                         alt="">
+                        </div>
+
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">barked</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="https://cdn.imgbin.com/2/4/0/imgbin-the-sims-2-pets-the-sims-4-the-sims-3-the-sims-2-apartment-life-the-sims-freeplay-sims-VLR5uPFfF4D3MDsPeskmrT4Zi.jpg"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">thesims</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="http://runthetrap.com/wp-content/uploads/2016/08/stranger-thingss.jpg"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">sttv</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/1200px-BBC_News_2019.svg.png"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">bbcbrasil</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="https://coollogo.net/wp-content/uploads/2021/03/National-Geographic-Maps-logo.svg"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">natgeo</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
+                    <div class="gradient-border">
+                    <img src="https://pbs.twimg.com/profile_images/1370070476983201796/5cGwxLzj_400x400.png"
                         alt="">
+                    </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">appletv</p>
                 </div>
 
                 <div class="story">
                     <!-- Imagem -->
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/9gag_logo.svg/1200px-9gag_logo.svg.png"
-                        alt="">
+
+                        <div class="gradient-border">
+                            <img src="https://pbs.twimg.com/profile_images/1278183948279922690/ybnDHXn7_400x400.jpg"
+                            alt="">
+                        </div>
                     <!-- Nome do usuário -->
-                    <p class="username_label">9gag</p>
+                    <p class="username_label">playstation</p>
                 </div>
+
 
             </div>
             <!-- Posts -->
@@ -188,7 +212,124 @@
                     </div>
                     <!-- Imagem do post -->
                     <div class="post-image">
-                        <video src="/images/video.mp4"></video>
+                        <video controls>
+                            <video src="/images/video.mp4" type="video/mp4">
+                                Seu navegador não suporta vídeos
+                        </video>
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <p>curtido por <strong>meowed</strong> e <strong>outras 6.978 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="data:image/png;base64,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" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">meowed</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="https://i.pinimg.com/736x/23/35/8e/23358e4f870f7b6ed4d4f11609d3b331.jpg" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="/images/f7lipe-prof-picture.jpeg"
+                                alt="">
+                            <p>curtido por <strong>f7lipe</strong> e <strong>outras 101.666 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="https://images.squarespace-cdn.com/content/v1/5cd13513ca525b170129034f/1558252297029-U1K9YU2H286Q07MAOYG3/Barked-logo-final.png?format=750w" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">barked</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPalqyg2YXHDE0BfoxnhyVx6He5ELQ_4Slgg&usqp=CAU" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/1200px-BBC_News_2019.svg.png"
+                                alt="">
+                            <p>curtido por <strong>bbcbrasil</strong> e <strong>outras 15.325 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="https://cdn.imgbin.com/2/4/0/imgbin-the-sims-2-pets-the-sims-4-the-sims-3-the-sims-2-apartment-life-the-sims-freeplay-sims-VLR5uPFfF4D3MDsPeskmrT4Zi.jpg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">thesims</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="https://static-wp-tor15-prd.torcedores.com/wp-content/uploads/2019/05/image1.jpg" alt="">
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
@@ -217,16 +358,16 @@
                         <!-- Usuário -->
                         <div class="user-profile">
                             <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <img src="http://runthetrap.com/wp-content/uploads/2016/08/stranger-thingss.jpg" alt="">
                             <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
+                            <p class="username">sttv</p>
                         </div>
                         <!-- ... -->
                         <p>...</p>
                     </div>
                     <!-- Imagem do post -->
                     <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
+                        <img src="https://febreteen.com.br/wp-content/uploads/2020/10/Stranger-Things-4.jpg" alt="">
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
@@ -255,16 +396,54 @@
                         <!-- Usuário -->
                         <div class="user-profile">
                             <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/BBC_News_2019.svg/1200px-BBC_News_2019.svg.png" alt="">
                             <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
+                            <p class="username">bbcbrasil</p>
                         </div>
                         <!-- ... -->
                         <p>...</p>
                     </div>
                     <!-- Imagem do post -->
                     <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
+                        <img src="https://i.ytimg.com/vi/WwRs8oIckEQ/maxresdefault.jpg" alt="">
+                    </div>
+                    <!-- Bottom bar com ações do post-->
+                    <div class="post-bottom-bar">
+                        <div class="actions">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <!-- Curtidas -->
+                    <div class="likes">
+                        <div class="like_label">
+                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            <p>curtido por <strong>driven</strong> e <strong>outras 11.532 pessoas</strong> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <!-- Topbar com foto e nome do usuário-->
+                    <div class="post-top-bar">
+                        <!-- Usuário -->
+                        <div class="user-profile">
+                            <!-- Foto -->
+                            <img src="https://coollogo.net/wp-content/uploads/2021/03/National-Geographic-Maps-logo.svg" alt="">
+                            <!-- ID do usuário-->
+                            <p class="username">natgeomaps</p>
+                        </div>
+                        <!-- ... -->
+                        <p>...</p>
+                    </div>
+                    <!-- Imagem do post -->
+                    <div class="post-image">
+                        <img src="https://images.natgeomaps.com/Logos/Collage_Adventure.jpg" alt="">
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
@@ -293,16 +472,16 @@
                         <!-- Usuário -->
                         <div class="user-profile">
                             <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <img src="https://pbs.twimg.com/profile_images/1370070476983201796/5cGwxLzj_400x400.png" alt="">
                             <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
+                            <p class="username">appletv</p>
                         </div>
                         <!-- ... -->
                         <p>...</p>
                     </div>
                     <!-- Imagem do post -->
                     <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
+                        <img src="https://macmagazine.com.br/wp-content/uploads/2021/02/15-for-all-mankind-podcast-800x801.png" alt="">
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
@@ -331,16 +510,16 @@
                         <!-- Usuário -->
                         <div class="user-profile">
                             <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                            <img src="https://pbs.twimg.com/profile_images/1278183948279922690/ybnDHXn7_400x400.jpg" alt="">
                             <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
+                            <p class="username">playstation</p>
                         </div>
                         <!-- ... -->
                         <p>...</p>
                     </div>
                     <!-- Imagem do post -->
                     <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
+                        <img src="https://i.ytimg.com/vi/fbNAx7eusw0/maxresdefault.jpg" alt="">
                     </div>
                     <!-- Bottom bar com ações do post-->
                     <div class="post-bottom-bar">
@@ -358,159 +537,7 @@
                         <div class="like_label">
                             <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
                                 alt="">
-                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <!-- Topbar com foto e nome do usuário-->
-                    <div class="post-top-bar">
-                        <!-- Usuário -->
-                        <div class="user-profile">
-                            <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
-                            <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
-                        </div>
-                        <!-- ... -->
-                        <p>...</p>
-                    </div>
-                    <!-- Imagem do post -->
-                    <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
-                    </div>
-                    <!-- Bottom bar com ações do post-->
-                    <div class="post-bottom-bar">
-                        <div class="actions">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
-                        </div>
-                        <div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                    </div>
-                    <!-- Curtidas -->
-                    <div class="likes">
-                        <div class="like_label">
-                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
-                                alt="">
-                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <!-- Topbar com foto e nome do usuário-->
-                    <div class="post-top-bar">
-                        <!-- Usuário -->
-                        <div class="user-profile">
-                            <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
-                            <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
-                        </div>
-                        <!-- ... -->
-                        <p>...</p>
-                    </div>
-                    <!-- Imagem do post -->
-                    <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
-                    </div>
-                    <!-- Bottom bar com ações do post-->
-                    <div class="post-bottom-bar">
-                        <div class="actions">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
-                        </div>
-                        <div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                    </div>
-                    <!-- Curtidas -->
-                    <div class="likes">
-                        <div class="like_label">
-                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
-                                alt="">
-                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <!-- Topbar com foto e nome do usuário-->
-                    <div class="post-top-bar">
-                        <!-- Usuário -->
-                        <div class="user-profile">
-                            <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
-                            <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
-                        </div>
-                        <!-- ... -->
-                        <p>...</p>
-                    </div>
-                    <!-- Imagem do post -->
-                    <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
-                    </div>
-                    <!-- Bottom bar com ações do post-->
-                    <div class="post-bottom-bar">
-                        <div class="actions">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
-                        </div>
-                        <div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                    </div>
-                    <!-- Curtidas -->
-                    <div class="likes">
-                        <div class="like_label">
-                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
-                                alt="">
-                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="post">
-                    <!-- Topbar com foto e nome do usuário-->
-                    <div class="post-top-bar">
-                        <!-- Usuário -->
-                        <div class="user-profile">
-                            <!-- Foto -->
-                            <img src="/images/f7lipe-prof-picture.jpeg" alt="">
-                            <!-- ID do usuário-->
-                            <p class="username">f7lipe</p>
-                        </div>
-                        <!-- ... -->
-                        <p>...</p>
-                    </div>
-                    <!-- Imagem do post -->
-                    <div class="post-image">
-                        <img src="/images/f7lipe-post.png" alt="">
-                    </div>
-                    <!-- Bottom bar com ações do post-->
-                    <div class="post-bottom-bar">
-                        <div class="actions">
-                            <ion-icon name="heart-outline"></ion-icon>
-                            <ion-icon name="chatbubble-outline"></ion-icon>
-                            <ion-icon name="paper-plane-outline"></ion-icon>
-                        </div>
-                        <div>
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                        </div>
-                    </div>
-                    <!-- Curtidas -->
-                    <div class="likes">
-                        <div class="like_label">
-                            <img src="https://yt3.ggpht.com/oZCGpPQc5qat2YIzVs_h1LTvrtpV6G--Q2CopkOoAa7d1WvHDohPzWO-vSEnQ4GljcQOO_6QkQ=s900-c-k-c0x00ffffff-no-rj"
-                                alt="">
-                            <p>curtido por <strong>driven</strong> e <strong>outras 10.523 pessoas</strong> </p>
+                            <p>curtido por <strong>driven</strong> e <strong>outras 12.253 pessoas</strong> </p>
                         </div>
                     </div>
                 </div>
@@ -521,13 +548,11 @@
         <div class="sidebar">
             <!-- Perfil do usupario -->
             <div class="user-profile">
-                <div class="suggestion-box">
                     <img src="/images/f7lipe-prof-picture.jpeg" alt="">
                     <div class="labels">
                         <!-- ID do usuário-->
-                        <p>f7lipe <br> Filipe Correia</p>
+                        <p><span class="username">f7lipe</span> <br> <span class="info">Filipe Correia</span></p>
                     </div>
-                </div>
             </div>
             <!-- Sugestões -->
             <div class="suggestions">
@@ -540,10 +565,10 @@
                 <!-- Sugestão -->
                 <div class="suggestion">
                     <div class="suggestion-box">
-                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <img src="https://res.cloudinary.com/teepublic/image/private/s--HwRH6wvl--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1550824312/production/designs/4259506_0.jpg" alt="">
                         <div class="labels">
                             <!-- ID do usuário-->
-                            <p>f7lipe <br> Segue você</p>
+                            <p><span class="username_label">bad.vibe.memes</span> <br> <span class="info">Segue você</span></p>
                         </div>
                     </div>
                     <p class="follow_btn">Seguir</p>
@@ -551,10 +576,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion-box">
-                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlqfYyoV6S8I7Sx_uTltjSLoSd6WH1clnCtA&usqp=CAU" alt="">
                         <div class="labels">
                             <!-- ID do usuário-->
-                            <p>f7lipe <br> Segue você</p>
+                            <p><span class="username_label">chibidart</span> <br> <span class="info">Segue você</span></p>
                         </div>
                     </div>
                     <p class="follow_btn">Seguir</p>
@@ -562,10 +587,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion-box">
-                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <img src="data:image/png;base64,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" alt="">
                         <div class="labels">
                             <!-- ID do usuário-->
-                            <p>f7lipe <br> Segue você</p>
+                            <p><span class="username_label">razoesparaacreditar</span> <br> <span class="info">Novo no Instagram</span></p>
                         </div>
                     </div>
                     <p class="follow_btn">Seguir</p>
@@ -573,10 +598,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion-box">
-                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <img src="https://all2048.com/images/games/26/really-adorable-animals/t5fd4c2f34480b.jpeg" alt="">
                         <div class="labels">
                             <!-- ID do usuário-->
-                            <p>f7lipe <br> Segue você</p>
+                            <p><span class="username_label">adorable_animals</span> <br><span class="info">Novo no Instagram</span></p>
                         </div>
                     </div>
                     <p class="follow_btn">Seguir</p>
@@ -584,10 +609,10 @@
 
                 <div class="suggestion">
                     <div class="suggestion-box">
-                        <img src="/images/f7lipe-prof-picture.jpeg" alt="">
+                        <img src="https://cdn.i-scmp.com/sites/default/files/styles/square/public/d8/yp/images/germanyanimalsjbu100.jpg?itok=gSRsFiGV" alt="">
                         <div class="labels">
                             <!-- ID do usuário-->
-                            <p>f7lipe <br> Segue você</p>
+                            <p><span class="username_label">small_cutest_animals</span> <br><span class="info">Novo no Instagram</span></p>
                         </div>
                     </div>
                     <p class="follow_btn">Seguir</p>
@@ -607,7 +632,13 @@
 
     </main>
 
-
+    <footer class="bottom-bar">
+            <ion-icon name="home"></ion-icon>
+            <ion-icon name="search"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+    </footer>
 </body>
 
 </html>
